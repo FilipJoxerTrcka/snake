@@ -6,14 +6,6 @@ body {
     padding: 0;
   }
   
-  canvas {body {
-    background: #2a623d;
-    text-align: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-  }
-  
   canvas {
     border: 10px solid #000000;
     height: 50vh;
@@ -133,89 +125,6 @@ body {
           max-height: 150px;
           margin-top: 20px;
         }
-    }
+   }
 }
-  
-    border: 10px solid #000000;
-    height: 70vh;
-  }
-  
-  h1 {
-    margin-top: 0;
-    font-size: 4em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    letter-spacing: -10px;
-  }
-  
-  h1 strong {
-    font-size: 1.35em;
-    display: inline-block;
-    margin: 0 0.25em;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  h2 strong {
-    display: inline-block;
-    margin: 0 0.25em;
-  }
-  
-  .btn {
-    display: none;
-  }
-  
-  /* Responsive Styles */
-  
-  @media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 3em;
-    }
-    
-    h1 strong {
-      font-size: 1em;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 2em;
-    }
-    
-    h1 strong {
-      font-size: 0.8em;
-    }
-    
-    /* Additional responsive styles for smaller screens */
-    body {
-      background: #aaa;  /* Example background color change for smaller screens */
-    }
-      .btn {
-          display: flow-root;
-        }
-        .btnU {
-          width: 90px;
-          height: 150px;
-        }
-        .btnD {
-          width: 90px;
-          height: 150px;
-        }
-        .btnL {
-          width: 150px;
-          height: 90px;
-        }
-        .btnR {
-          width: 150px;
-          height: 90px;
-        }
-        .btnRes {
-          width: 90px;
-          height: 90px;
-          transform: translate(0px, 124px);
-        }
-  }
   
