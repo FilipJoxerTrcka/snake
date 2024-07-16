@@ -8,7 +8,7 @@ body {
   
   canvas {
     border: 10px solid #000000;
-    height: 70vh;
+    height: 50vh;
   }
   
   h1 {
@@ -39,54 +39,92 @@ body {
     display: none;
   }
   
-  /* Responsive Styles */
-  
-  @media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 3em;
-    }
-    
-    h1 strong {
-      font-size: 1em;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    h1 {
-      font-size: 2em;
-    }
-    
-    h1 strong {
-      font-size: 0.8em;
-    }
-    
-    /* Additional responsive styles for smaller screens */
+  @media (max-width: 1080px) {
     body {
-      background: #aaa;  /* Example background color change for smaller screens */
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      height: 100vh;
     }
-      .btn {
-          display: flow-root;
+  
+    canvas {
+        border: 10px solid #000000;
+        transform: translate(0px, 1px);
+        height: 50vh;
+    }
+  
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    .btn {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 30px;
+      font-size: 18px;
+      height: 30vh;
+    }
+    
+    .btnU,
+    .btnD {
+      width: 120px;
+      height: 70px;
+    }
+  
+    .btnL,
+    .btnR {
+      width: 70px;
+      height: 120px;
+    }
+  
+    .btnRes {
+      width: 90px;
+      height: 90px;
+    }
+    @media (max-width: 600px) {
+        body {
+          background: #2a623d;
         }
-        .btnU {
-          width: 90px;
-          height: 150px;
+      
+        canvas {
+          border: 10px solid #000000;
+          max-width: 90%;
+          height: 50vh;
+          margin-bottom: 20px;
         }
+      
+        h1 {
+          font-size: 2.5em;
+        }
+      
+        .btn {
+          display: block;
+          margin: 10px auto;
+          padding: 15px 30px;
+          font-size: 18px;
+
+        }
+        
+        .btnU,
         .btnD {
-          width: 90px;
-          height: 150px;
+          width: 40%;
+          height: 60px;
+          max-height: 150px;
         }
-        .btnL {
-          width: 150px;
-          height: 90px;
-        }
+      
+        .btnL,
         .btnR {
-          width: 150px;
-          height: 90px;
+          width: 25%;
+          height: 60px;
+          max-height: 150px;
         }
+      
         .btnRes {
-          width: 90px;
-          height: 90px;
-          transform: translate(0px, 124px);
+          width: 20%;
+          height: 60px;
+          max-height: 150px;
+          margin-top: 20px;
         }
-  }
+}
+}
   
