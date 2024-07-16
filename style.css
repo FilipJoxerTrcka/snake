@@ -84,6 +84,7 @@ body {
     @media (max-width: 600px) {
         body {
           background: #2a623d;
+          height: 100vh;  
         }
       
         canvas {
@@ -102,6 +103,7 @@ body {
           margin: 10px auto;
           padding: 15px 30px;
           font-size: 18px;
+          height: 30vh;  
 
         }
         
