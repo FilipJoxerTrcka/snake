@@ -24,7 +24,7 @@
             let velocityY = 1;
       
             let tail = [];
-            let snakeLenght = 20;
+            let snakeLenght = 4;
       
             //food
             let foodPosX = 0;
