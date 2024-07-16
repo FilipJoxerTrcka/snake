@@ -12,6 +12,7 @@
             //canvas
             const canvas = document.querySelector("canvas");
             const title = document.querySelector("h1");
+
             const ctx = canvas.getContext("2d");
       
             //player
@@ -123,10 +124,7 @@
       
             //randomize food position
             function resetFood() {
-              // GAME OVER (nowhere to go)
-              // if (snakeLength === tileCountX * tileCountY) {
-              // 	gameOver();
-              // }
+        
       
               foodPosX = Math.floor(Math.random() * tileCountX) * tileSize;
               foodPosY = Math.floor(Math.random() * tileCountY) * tileSize;
@@ -146,13 +144,15 @@
               }
             }
             //game over
-            //keyboard restarts game
-            //OPRAV NAPIS NECH JE POD A NECH TO LEPSIE VYZERA zmen index pridavania kocky nie na zaciatok hada, ale na koniec aby stale hlava bola index0!!!
-      
-           function gameOver() {
-              title.innerHTML = `☠️ <strong> ${score}  </strong> ☠️ <br> Press any key to restart`;
-              gameIsRunning = false;
-            }
+           
+      function gameOver() {
+  if (window.innerWidth > 1000) {
+    title.innerHTML = `☠️ <strong> ${score} </strong> ☠️ <br> Press any key to restart`;
+  } else {
+    title.textContent = `☠️ ${score} ☠️`;
+  }
+  gameIsRunning = false;
+}
        
             //Keyboard
       
