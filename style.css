@@ -128,10 +128,10 @@ h2 strong {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 10px auto;
-        padding: 15px 30px;
+        margin: 0px auto;
+        padding: 0px 30px;
         font-size: 18px;
-        height: 30vh;
+        height: 20vh;
       }
       
       .left-btns {
@@ -161,7 +161,7 @@ h2 strong {
       }
       
       .btnRes {
-        width: 40px;
+        width: 70px;
         height: 40px;
       }
  }
