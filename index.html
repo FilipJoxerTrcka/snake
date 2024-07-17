@@ -14,13 +14,19 @@
 
     <h1>0</h1>
 
-    <div class="btn">
-      <button class="btnU" onclick="moveup()">UP</button>
-      <button class="btnD" onclick="movedown()">DOWN</button>
-      <button class="btnL" onclick="moveleft()">LEFT</button>
-      <button class="btnR" onclick="moveright()">RIGHT</button>
+   <div class="btn">
+      <div class="left-btns">
+        <button class="btnLeft" onclick="moveLeft()">←</button>
+        <button class="btnUp" onclick="moveUp()">↑</button>
+        <button class="btnRight" onclick="moveRight()">→</button>
+      </div>
+      <div class="right-btns">
+        
+        <button class="btnDown" onclick="moveDown()">↓</button>
+      </div>
       <button class="btnRes" onclick="restart()">Restart</button>
     </div>
+    
 
     <script src="snakeScript.js"></script>
   </body>
