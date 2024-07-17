@@ -192,28 +192,28 @@
               }
             }
             // touchpad
-            function moveleft() {
+            function moveLeft() {
               if (velocityX !== 1) {
                 velocityX = -1;
                 velocityY = 0;
               }
             }
       
-            function moveup() {
+            function moveUp() {
               if (velocityY !== 1) {
                 velocityX = 0;
                 velocityY = -1;
               }
             }
       
-            function moveright() {
+            function moveRight() {
               if (velocityX !== -1) {
                 velocityX = 1;
                 velocityY = 0;
               }
             }
       
-            function movedown() {
+            function moveDown() {
               if (velocityY !== -1) {
                 velocityX = 0;
                 velocityY = 1;
