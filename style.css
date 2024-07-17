@@ -58,29 +58,46 @@ body {
     }
   
     .btn {
-      display: block;
-      margin: 10px auto;
-      padding: 15px 30px;
-      font-size: 18px;
-      height: 30vh;
-    }
-    
-    .btnU,
-    .btnD {
-      width: 120px;
-      height: 70px;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    height: 30vh;
+  }
   
-    .btnL,
-    .btnR {
-      width: 70px;
-      height: 120px;
-    }
+  .left-btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  }
   
-    .btnRes {
-      width: 90px;
-      height: 90px;
-    }
+  .right-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .btnUp,
+  .btnDown {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .btnLeft,
+  .btnRight {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .btnRes {
+    width: 90px;
+    height: 90px;
+  }
     @media (max-width: 600px) {
         body {
           background: #2a623d;
