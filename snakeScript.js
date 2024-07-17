@@ -34,7 +34,7 @@
             //game
             let gameIsRunning = true;
       
-            let fps = 10;
+            let fps = 7;
             let score = 0;
       
             const tileCountX = canvas.width / tileSize;
