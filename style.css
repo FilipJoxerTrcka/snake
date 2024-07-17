@@ -47,16 +47,16 @@ h2 strong {
     height: 100vh;
   }
 
+  p {
+    display: none;
+  }
+
   canvas {
       border: 10px solid #000000;
       transform: translate(0px, 1px);
       height: 50vh;
   }
-  
-   p {
-        display: none;
-      }
-  
+
   h1 {
     font-size: 2.5em;
   }
@@ -88,14 +88,14 @@ h2 strong {
   
   .btnUp,
   .btnDown {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
   }
   
   .btnLeft,
   .btnRight {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
   }
   
   .btnRes {
@@ -107,7 +107,11 @@ h2 strong {
       body {
         background: #2a623d;
       }
-    
+
+      p {
+        display: none;
+      }
+
       canvas {
         border: 10px solid #000000;
         max-width: 90%;
@@ -117,10 +121,6 @@ h2 strong {
     
       h1 {
         font-size: 2.5em;
-      }
-
-       p {
-        display: none;
       }
     
       .btn {
@@ -150,19 +150,19 @@ h2 strong {
       
       .btnUp,
       .btnDown {
-        width: 30px;
-        height: 30px;
+        width: 70px;
+        height: 70px;
       }
       
       .btnLeft,
       .btnRight {
-        width: 30px;
-        height: 30px;
+        width: 70px;
+        height: 70px;
       }
       
       .btnRes {
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
       }
  }
 }
